@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Border Image</title>
+		<style type="text/css">
+			p {
+				width: 700px;
+				height: 100px;
+				border: 100px solid #ffffff;
+				margin: 10px auto 10px auto;}
+			p.one {
+				-moz-border-image: url("border.svg") 33 33 33 33 stretch;
+				-webkit-border-image: url("border.svg") 33 33 33 33 stretch;
+				border-image: url("border.svg") 33 33 33 33 stretch;}
+			p.two {
+				-moz-border-image: url("border.svg") 33 33 33 33 round;
+				-webkit-border-image: url("border.svg") 33 33 33 33 round;
+				border-image: url("border.svg") 33 33 33 33 round;}
+		</style>
+	</head>
+	<body>
+		<font size="6"><p class="one" align=center>我顛覆了整個世界，只為擺正你的倒影。</p></font>
+		<hr />
+		<font size="6"><p class="two" align=center>我顛覆了整個世界，只為擺正你的倒影。</p></font>
+	</body>
+</html>
