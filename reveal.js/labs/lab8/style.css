@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+h1{
+	text-align:center;
+}
+div{
+	border: 2px solid red;
+}
+p{
+	border: 2px solid red;
+	text-align:center;
+	width:70%;
+	padding: 30px;
+	height:300px;
+	font-family: ‘cwTeXYen’, serif;
+	font-size:24pt;
+	overflow:auto;
+	justify-content:center;
+	display:flex;
+	align-items:center;
+	margin:30px auto 30px auto;
+}
+p img{
+	float:right;
+	width: 240px;
+	height:240px;
+}
